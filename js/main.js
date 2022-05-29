@@ -5,7 +5,7 @@
       this.puzzle = puzzle;
       this.ctx = canvas.getContext("2d");
       this.img = document.createElement("img");
-      this.img.src = "https://github.com/atsushi-cr/15Puzzle/blob/main/img/15puzzle.png";
+      this.img.src = "https://atsushi-cr/15Puzzle/img/15puzzle.png";
       this.TILE_SIZE = 70;
       this.img.addEventListener("load", () => {
         this.render();
